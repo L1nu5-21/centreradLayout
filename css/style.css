@@ -1,0 +1,44 @@
+body {
+    margin: 0%;
+    margin-inline: auto;
+}
+
+.container {
+    width: min(80ch, 100vw - 2rem);
+    margin: auto;
+    width: 50%;
+}
+
+header {
+    width: min(80ch, 100vW - 2rem);
+    margin: auto;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+    display: flex;
+}
+
+.nav {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+nav > ul {
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 1rem;
+    display: flex;
+    padding: 0;
+}
+
+header > img {
+    max-width: 60px;
+    width: auto;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+}
